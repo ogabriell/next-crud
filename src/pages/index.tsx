@@ -15,7 +15,7 @@ export default function Home() {
       {tabelaVisivel ? (
         <>
         <div className={`flex justify-end`}>
-          <Botao className={`mb-4 flex justify-end bg-lime-200`} onClick={novoCliente}>Novo Cliente</Botao>
+          <Botao className={`mb-4 flex justify-end bg-lime-200`} onClick={novoCliente}>Novo Usuario</Botao>
         </div>
         <Tabela clientes={clientes} clienteSelecionado={clienteSelecionado} clienteExcluido={clienteExcluido}></Tabela>
       </>
